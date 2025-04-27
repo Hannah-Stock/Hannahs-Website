@@ -38,17 +38,29 @@ body {
 
 .hero {
   text-align: center;
-  padding: 5rem 2rem;
-  background: #d6ccc2;
+  padding: 6rem 2rem;
+  background: url('/Users/raythomas/Desktop/ripen_fitness_site_sticky_footer/images/Neutral Green Modern Elegant Yoga Retreat Instagram Post - 1080 x 1350 px - Canva.jpeg') no-repeat center center/cover;
+  color: #ffffff;
 }
 
 .hero h1 {
   font-size: 3rem;
-  color: #001f3f;
+  color: #ffffff;
 }
 
 .hero p {
   margin: 1rem 0;
+  color: #ffffff;
+}
+
+.hero .btn-primary {
+  background-color: rgba(0, 31, 63, 0.9);
+  color: white;
+  border: none;
+}
+
+.hero .btn-primary:hover {
+  background-color: #001f3f;
 }
 
 .btn-primary {
@@ -134,22 +146,3 @@ main {
   padding: 2rem;
 }
 
-/* Homepage Hero Section with Background Image */
-body.index-page .hero {
-  background: url("'/Users/raythomas/Desktop/ripen_fitness_site_sticky_footer/images/Neutral Green Modern Elegant Yoga Retreat Instagram Post - 1080 x 1350 px - Canva.jpeg'") no-repeat center center/cover;
-  color: #fff;
-}
-
-body.index-page .hero h1,
-body.index-page .hero p {
-  color: #ffffff;
-}
-
-body.index-page .hero .btn-primary {
-  background-color: rgba(0, 31, 63, 0.85);
-  color: #fff;
-}
-
-body.index-page .hero .btn-primary:hover {
-  background-color: #001f3f;
-}
