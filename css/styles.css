@@ -39,26 +39,31 @@ body {
 .hero {
   text-align: center;
   padding: 6rem 2rem;
-  background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+  background: url('/images/hero-bg.jpg') no-repeat center center / cover;
   color: #ffffff;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
 .hero h1 {
   font-size: 3rem;
   color: #ffffff;
 }
-
 .hero p {
   margin: 1rem 0;
   color: #ffffff;
 }
-
 .hero .btn-primary {
   background-color: rgba(0, 31, 63, 0.9);
   color: white;
   border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 1rem;
 }
-
 .hero .btn-primary:hover {
   background-color: #001f3f;
 }
