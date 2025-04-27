@@ -133,3 +133,23 @@ main {
   margin: 0 auto;
   padding: 2rem;
 }
+
+/* Homepage Hero Section with Background Image */
+body.index-page .hero {
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+body.index-page .hero h1,
+body.index-page .hero p {
+  color: #ffffff;
+}
+
+body.index-page .hero .btn-primary {
+  background-color: rgba(0, 31, 63, 0.85);
+  color: #fff;
+}
+
+body.index-page .hero .btn-primary:hover {
+  background-color: #001f3f;
+}
